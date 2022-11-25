@@ -1,0 +1,183 @@
+@charset "ISO-8859-1";
+body {
+background-image : url("../imagenes/blanco.jpg");
+background-repeat : no- repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+color: black;
+}
+
+h1 {
+	font-size: 2.3em;
+  line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	color:rgb(252, 252, 254); 
+	font-family:GungSuh; 
+	font-size:50px;
+}
+pre{
+	color: #000000; 
+	font-family:GungSuh; 
+	font-size:20px;
+	 align: "left";
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+	
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+	#main-header a {
+		color: white;
+	}
+	
+	
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 1000;
+		font-size: 1.5em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 1em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: center;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 30px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+	
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 3px;
+	margin-top: 5px;
+}
+#main-footer p {
+		margin: 0;
+	}
+	
+#main-footer a {
+		color: white;
+	}
+#main-footer li{
+list-style: none;
+font:bold 14px verdana;
+padding: 3px;
+display: inline-block;
+}
+
+.agrupar
+{
+border:2px;
+margin: auto;
+width: 960px;
+}
+article {
+  display: block;
+}
+aside{
+	color: white;
+}
+section { 
+margin:20px;
+width: 1000px;
+float:center;
+background:#e6e6e6;
+}
+video{
+	position: fixed;
+	min-width:100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	tranform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+
+
